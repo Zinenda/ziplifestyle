@@ -1,0 +1,19 @@
+backend:
+  name: git-gateway
+  accept_roles:
+    - admin
+    - editor
+  branch: master
+
+media_folder: "assets/img/uploads"
+
+collections:
+  - name: "produtos"
+    label: "produtos"
+    folder: "_produtos"
+    create: true
+    fields:
+      - {label: "Nome do Produto", name: "title", widget: "string"}
+      - {label: "Categoria", name: "category", widget: "string"}
+      - {label: "Preço", name: "price", widget: "number"}
+      - {label: "Imagem", name: "image", widget: "image"}

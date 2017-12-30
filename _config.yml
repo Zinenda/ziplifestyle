@@ -1,0 +1,37 @@
+title: ZIP
+email: vendas@zip.co
+description: >- # this means to ignore newlines until "baseurl:"
+  ZIP É Lifestyle
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-email-protect
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-analytics
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - bower_components
+  - admin/index.js
+  - webpack.config.js
+  - package.json
+  - README.md
+
+sass:
+  sass_dir: assets/_sass
+  style: compressed
+
+collections:
+  produtos:
+
+image:
+logo: /assets/img/logo.svg

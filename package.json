@@ -1,0 +1,21 @@
+{
+  "name": "ZIP",
+  "version": "1.0.0",
+  "description": "Lifestyle",
+  "main": "index.js",
+  "author": "Ivo Zinenda <izinenda@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "materialize-css": "1.0.0-alpha.2",
+    "netlify-cms": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.6",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0"
+  }
+}

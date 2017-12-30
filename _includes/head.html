@@ -1,0 +1,24 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="{{ site.color }}">
+    
+    {% seo %}
+
+    {% include scssify.html %}
+    
+    <link rel="shortcut icon" href="/assets/img/favicons/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/assets/img/favicons/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.json">
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <script src="/assets/js/jquery.min.js"></script>
+    {% include snipcart.html %}
+
+    {% if page.url == "/" %}
+        <!-- netlify identity widget -->
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    {% endif %}
+</head>
