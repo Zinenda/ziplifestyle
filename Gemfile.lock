@@ -25,7 +25,7 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 3)
       safe_yaml (~> 1.0)
-    jekyll-analytics (0.1.5)
+    jekyll-analytics (0.1.6)
     jekyll-email-protect (1.0.3)
     jekyll-sass-converter (1.5.1)
       sass (~> 3.4)
