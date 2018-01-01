@@ -1,47 +1,14 @@
-// ==========================================================================
-// Materialize variables
-// ==========================================================================
-//
-// Table of Contents:
-//
-//  1. Colors
-//  2. Badges
-//  3. Buttons
-//  4. Cards
-//  5. Carousel
-//  6. Collapsible
-//  7. Chips
-//  8. Date + Time Picker
-//  9. Dropdown
-//  10. Forms
-//  11. Global
-//  12. Grid
-//  13. Navigation Bar
-//  14. Side Navigation
-//  15. Photo Slider
-//  16. Spinners | Loaders
-//  17. Tabs
-//  18. Tables
-//  19. Toasts
-//  20. Typography
-//  21. Footer
-//  22. Flow Text
-//  23. Collections
-//  24. Progress Bar
-
-
-
 // 1. Colors
 // ==========================================================================
 
-$primary-color: color("materialize-red", "lighten-2") !default;
+$primary-color: #820333 !default;
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
 
-$secondary-color: color("teal", "lighten-1") !default;
+$secondary-color: #C9283E !default;
 $success-color: color("green", "base") !default;
 $error-color: color("red", "base") !default;
-$link-color: color("light-blue", "darken-1") !default;
+$link-color: #540032 !default;
 
 
 // 2. Badges
@@ -77,7 +44,7 @@ $button-large-icon-font-size: 1.6rem !default;
 $button-large-height: $button-height * 1.5 !default;
 
 // Flat buttons
-$button-flat-color: #343434 !default;
+$button-flat-color: #2E112D !default;
 $button-flat-disabled-color: lighten(#999, 10%) !default;
 
 // Floating buttons
@@ -94,7 +61,7 @@ $button-floating-radius: 50% !default;
 
 $card-padding: 24px !default;
 $card-bg-color: #fff !default;
-$card-link-color: color("orange", "accent-2") !default;
+$card-link-color: #F0433A !default;
 $card-link-color-light: lighten($card-link-color, 20%) !default;
 
 
