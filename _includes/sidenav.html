@@ -1,0 +1,8 @@
+<aside id="sideNav" class="sidenav">
+    <ul>
+        <li {% if page.url == "/" %}class="active"{% endif %}>
+            <a href="/">Página Inicial</a>
+        </li>
+        {% include nav.html %}
+    </ul>
+</aside>
