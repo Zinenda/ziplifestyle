@@ -1,0 +1,15 @@
+- link: https://facebook.com/
+  title: Facebook
+  icon: facebook
+
+- link: https://twitter.com/
+  title: Twitter
+  icon: twitter
+
+- link: https://instagram.com/
+  title: Instagram
+  icon: instagram
+
+- link: https://messenger.com/
+  title: Messenger
+  icon: messenger
