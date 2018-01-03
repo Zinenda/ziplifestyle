@@ -22,6 +22,19 @@
     background: $primary-color-dark;
 }
 
+
+
+nav, header, main, footer {
+    padding-left: 300px;
+  }
+
+  @media only screen and (max-width : 992px) {
+    nav, header, main, footer {
+      padding-left: 0;
+    }
+}
+
+
 .page-footer {
     i,
     .btn-flat {
@@ -29,8 +42,15 @@
     }
 }
 
-.parallax {
-    height: 100%;
+.page-header {
+    background: {
+        image: url(../assets/img/background.jpg);
+        position: center;
+        size: cover;
+        attachment: fixed;
+        repeat: no-repeat;
+    }
+    height: 50vh;
 }
 
 .waves-effect.waves-primary .waves-ripple {

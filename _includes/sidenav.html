@@ -1,7 +1,24 @@
-<aside id="sideNav" class="sidenav">
+<aside id="sideNav" class="sidenav sidenav-fixed">
+    <div class="center">
+        <a href="/">
+            <img src="{{ site.logo }}" alt="{{ site.title }}" style="width: 100px;">
+        </a>
+    </div>
+
+    <form action="" class="hoverable">
+        <div class="input-field">
+            <input type="search" id="search" required placeholder="Pesquise">
+            <label for="search" class="label-icon">
+                <i class="fa-2x fas fa-search"></i>
+            </label>
+        </div>
+    </form>
+
     <ul>
-        <li {% if page.url == "/" %}class="active"{% endif %}>
-            <a href="/">Página Inicial</a>
+        <li>
+            <a href="#" title="Usuário" class="snipcart-user-email snipcart-user-profile">
+                <i class="fas fa-user"></i> Usuário
+            </a>
         </li>
         {% include nav.html %}
     </ul>

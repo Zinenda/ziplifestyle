@@ -1,24 +1,28 @@
-<nav class="nav-extended">
-    <div class="nav-wrapper">
-        <a href="/" title="{{ site.title }}" class="brand-logo center">{{ site.title }}</a>
-        <a href="#" data-activates="sideNav" class="sidenav-trigger"><i class="fas fa-navicon"></i></a>
+<div class="navbar-fixed">
+    <nav class="nav-extended">
+        <div class="nav-wrapper">
+            <a href="/" class="brand-logo center">{{ site.title }}</a>
+            <a href="#" data-target="sideNav" class="sidenav-trigger"><i class="fa-2x fas fa-bars"></i></a>
 
-        <ul class="right hide-on-med-and-down">
-            {% for item in site.data.social %}
-                <li>
-                    <a href="{{ item.link }}" class="tooltipped" data-position="top" data-delay="50" data-tooltip="{{ item.title }}"><i class="fab fa-{{ item.icon }}"></i></a>
-                </li>
-            {% endfor %}
-        </ul>
-    </div>
+            <ul class="right hide-on-small-only">
+                {% for item in site.data.social %}
+                    <li>
+                        <a href="{{ item.link }}" class="tooltipped" data-position="top" data-delay="50" data-tooltip="{{ item.title }}">
+                            <i class="fab fa-{{ item.icon }}"></i>
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
 
-    <div class="nav-content">
-        {% if page.title %}
-            <span class="nav-title">{{ page.title }}</span>
-        {% endif %}
-
-        <a href="#" class="btn-floating btn-large halfway-fab waves-effect waves-light snipcart-checkout sidenav-trigger" data-activates="cart-summary">
-            <i class="fas fa-shopping-cart"></i>
-        </a>
-    </div>
-</nav>
+        <div class="nav-content">
+            <a href="#" 
+                class="snipcart-checkout btn-floating btn-large halfway-fab waves-effect waves-circle waves-light tooltipped" 
+                data-position="bottom" 
+                data-delay="50" 
+                data-tooltip="Carrinho de Compra">
+                <i class="fa-2x fas fa-shopping-cart"></i>
+            </a>
+        </div>
+    </nav>
+</div>
