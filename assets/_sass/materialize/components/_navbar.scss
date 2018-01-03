@@ -15,7 +15,11 @@ nav {
 
   color: $navbar-font-color;
   @extend .z-depth-1;
-  background-color: $primary-color;
+  background: #820333; /* Old browsers */
+  background: -moz-linear-gradient(left, #820333 0%, #540032 40%, #c9283e 60%, #f0433a 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #820333 0%,#540032 40%,#c9283e 60%,#f0433a 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #820333 0%,#540032 40%,#c9283e 60%,#f0433a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#820333', endColorstr='#f0433a',GradientType=1 ); /* IE6-9 */
   width: 100%;
   height: $navbar-height-mobile;
   line-height: $navbar-line-height-mobile;
