@@ -1,11 +1,38 @@
 <div class="col s12 m4">
     <div class="card hoverable">
-        <div class="card-image">
-            <a href="">
-                <img src="{{ item.image }}" alt="{{ item.title }}">
-                <span class="card-title">{{ item.title }}</span>
-            </a>
+        <div class="card-image waves-effect waves-block waves-light">
+            <img src="{{ item.image }}" alt="{{ item.title }}" class="materialboxed" data-caption="{{ item.title }} por {{ item.price }} MTs">
             {% include snipcart-btn.html %}
+        </div>
+        <div class="card-content">
+            <span class="card-title activator">
+                <strong>{{ item.price }} MZN</strong>
+                <i class="fas fa-ellipsis-v"></i>
+            </span>
+        </div>
+        <div class="card-reveal">
+            <span class="card-title">
+                <strong>{{ item.price }} MZN</strong>
+                <i class="fas fa-ellipsis-v"></i>
+            </span>
+
+            <p class="flow-text">
+                <em>{{ item.description }}</em>
+            </p>
+
+            <div class="card-action center">
+                <button 
+                    class="btn-large btn-flat waves-effect waves-light snipcart-add-item"
+                    data-item-id="{{ item.category }}{{ forloop.index }}"
+                    data-item-name="{{ item.title }}"
+                    data-item-price="{{ item.price }}"
+                    data-item-image="{{ item.image }}"
+                    data-item-url="{{ item.url }}"
+                    data-item-description="{{ item.description }}">
+                        <i class="fas cart-plus"></i>
+                        compre já!
+                </button>
+            </div>
         </div>
     </div>
 </div>

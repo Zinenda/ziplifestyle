@@ -8,7 +8,11 @@
 
 
         <main class="animate-bottom">
-            {{ content }}
+            <div class="container">
+                <div id="masonry-grid" class="row">
+                    {{ content }}          
+                </div>
+            </div>
         </main>
             
         {% include footer.html %}
