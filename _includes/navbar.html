@@ -5,24 +5,22 @@
             <a href="#" data-target="sideNav" class="sidenav-trigger"><i class="fa-2x fas fa-bars"></i></a>
 
             <ul class="right hide-on-small-only">
+                <li>
+                    <a href="" class="waves-effect waves-light snipcart-checkout tooltipped" data-position="bottom" data-delay="50" data-tooltip="Carrinho de Compras">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="new badge snipcart-summary">
+                            <span class="snipcart-total-items"></span>
+                        </span>
+                    </a>
+                </li>
                 {% for item in site.data.social %}
                     <li>
-                        <a href="{{ item.link }}" class="tooltipped" data-position="top" data-delay="50" data-tooltip="{{ item.title }}">
+                        <a href="{{ item.link }}" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="{{ item.title }}">
                             <i class="fab fa-{{ item.icon }}"></i>
                         </a>
                     </li>
                 {% endfor %}
             </ul>
-        </div>
-
-        <div class="nav-content">
-            <a href="#" 
-                class="snipcart-checkout btn-floating btn-large halfway-fab waves-effect waves-circle waves-light tooltipped" 
-                data-position="bottom" 
-                data-delay="50" 
-                data-tooltip="Carrinho de Compra">
-                <i class="fa-2x fas fa-shopping-cart"></i>
-            </a>
         </div>
     </nav>
 </div>

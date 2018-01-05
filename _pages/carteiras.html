@@ -1,0 +1,10 @@
+---
+title: Carteiras
+layout: default
+---
+
+{% for item in site.produtos %}
+    {% if item.family == "carteiras" %}
+        {% include grid-loop.html %}
+    {% endif %}
+{% endfor %}
