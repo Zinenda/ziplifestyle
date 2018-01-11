@@ -18,7 +18,6 @@ collections:
         name: family
         widget: select
         options: [ "braceletes", "carteiras", "cintos", "chapeus", "gravatas", "relogios", "pastas", "oculos", "meias"]
-      - {label: "Descrição", name: "description", widget: "string"}
       - {label: "Preço", name: "price", widget: "number"}
       - label: "Imagens"
         name: "slideImages"

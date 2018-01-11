@@ -1,8 +1,8 @@
 <div class="navbar-fixed">
     <nav class="nav-extended">
         <div class="nav-wrapper">
-            <a href="/" class="brand-logo left">{{ site.title }}</a>
-            <a href="#" data-target="sideNav" class="sidenav-trigger"><i class="fa-2x fas fa-bars"></i></a>
+            <a href="/" class="brand-logo center hide-on-small-only">{{ site.title }}</a>
+            <a href="#" data-target="sideNav" class="sidenav-trigger show-on-large"><i class="fa-2x fas fa-bars"></i></a>
 
             <ul class="right">
                 <li>
@@ -13,13 +13,6 @@
                         </span>
                     </a>
                 </li>
-                {% for item in site.data.social %}
-                    <li>
-                        <a href="{{ item.link }}" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="{{ item.title }}">
-                            <i class="fab fa-{{ item.icon }}"></i>
-                        </a>
-                    </li>
-                {% endfor %}
             </ul>
         </div>
     </nav>

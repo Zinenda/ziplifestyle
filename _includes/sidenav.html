@@ -1,11 +1,11 @@
-<aside id="sideNav" class="sidenav sidenav-fixed primary-color-text">
+<aside id="sideNav" class="sidenav primary-color-text">
     <div class="center">
         <a href="/">
             <img src="{{ site.logo }}" alt="{{ site.title }}" style="width: 100px;">
         </a>
     </div>
 
-    <form action="" class="hoverable">
+    <form action="" class="card hoverable">
         <div class="input-field">
             <input type="search" id="search" required placeholder="Pesquise">
             <label for="search" class="label-icon">
@@ -13,17 +13,6 @@
             </label>
         </div>
     </form>
-
-    <div class="center">
-        <span class="fa-stack fa-2x">
-            <i class="far fa-circle fa-stack-2x"></i>
-            <i class="fas fa-user fa-stack-1x"></i>
-        </span>
-        <br>
-        <a href="#" title="Usuário" class="snipcart-user-email snipcart-user-profile">
-            Usuário
-        </a>
-    </div>
     <hr>
     <ul>
         {% include nav.html %}
