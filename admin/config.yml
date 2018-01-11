@@ -20,4 +20,8 @@ collections:
         options: [ "braceletes", "carteiras", "cintos", "chapeus", "gravatas", "relogios", "pastas", "oculos", "meias"]
       - {label: "Descrição", name: "description", widget: "string"}
       - {label: "Preço", name: "price", widget: "number"}
-      - {label: "Imagem", name: "image", widget: "image"}
+      - label: "Imagens"
+        name: "slideImages"
+        widget: list
+        field:
+          - {label: "Imagem", name: "image", widget: "image"}

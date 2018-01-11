@@ -15,11 +15,9 @@ nav {
 
   color: $navbar-font-color;
   @extend .z-depth-1;
-  background: #820333; /* Old browsers */
-  background: -moz-linear-gradient(left, #820333 0%, #540032 40%, #c9283e 60%, #f0433a 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #820333 0%,#540032 40%,#c9283e 60%,#f0433a 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #820333 0%,#540032 40%,#c9283e 60%,#f0433a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#820333', endColorstr='#f0433a',GradientType=1 ); /* IE6-9 */
+  background: $primary-color;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   width: 100%;
   height: $navbar-height-mobile;
   line-height: $navbar-line-height-mobile;
