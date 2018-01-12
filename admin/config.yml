@@ -17,10 +17,10 @@ collections:
       - label: Categoria
         name: family
         widget: select
-        options: [ "braceletes", "carteiras", "cintos", "chapeus", "gravatas", "relogios", "pastas", "oculos", "meias"]
+        options: ["braceletes", "carteiras", "cintos", "chapeus", "gravatas", "relogios", "pastas", "oculos", "meias"]
       - {label: "Preço", name: "price", widget: "number"}
       - label: "Imagens"
         name: "slideImages"
-        widget: list
+        widget: "list"
         field:
-          - {label: "Imagem", name: "image", widget: "image"}
+          - {label: Imagem, name: image, widget: image}
