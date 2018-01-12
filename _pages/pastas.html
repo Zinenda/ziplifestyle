@@ -1,0 +1,10 @@
+---
+title: Pastas
+layout: default
+---
+
+{% for item in site.produtos %}
+    {% if item.family == "pastas" %}
+        {% include grid-loop.html %}
+    {% endif %}
+{% endfor %}

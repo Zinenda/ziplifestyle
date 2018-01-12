@@ -1,0 +1,10 @@
+---
+title: Meias
+layout: default
+---
+
+{% for item in site.produtos %}
+    {% if item.family == "meias" %}
+        {% include grid-loop.html %}
+    {% endif %}
+{% endfor %}

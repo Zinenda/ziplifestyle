@@ -1,0 +1,10 @@
+---
+title: Gravatas
+layout: default
+---
+
+{% for item in site.produtos %}
+    {% if item.family == "gravatas" %}
+        {% include grid-loop.html %}
+    {% endif %}
+{% endfor %}

@@ -1,0 +1,10 @@
+---
+title: Braceltes
+layout: default
+---
+
+{% for item in site.produtos %}
+    {% if item.family == "braceletes" %}
+        {% include grid-loop.html %}
+    {% endif %}
+{% endfor %}

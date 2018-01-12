@@ -1,0 +1,10 @@
+---
+title: Óculos
+layout: default
+---
+
+{% for item in site.produtos %}
+    {% if item.family == "oculos" %}
+        {% include grid-loop.html %}
+    {% endif %}
+{% endfor %}

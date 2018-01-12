@@ -1,0 +1,10 @@
+---
+title: Relogios
+layout: default
+---
+
+{% for item in site.produtos %}
+    {% if item.family == "relogios" %}
+        {% include grid-loop.html %}
+    {% endif %}
+{% endfor %}

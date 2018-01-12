@@ -1,0 +1,10 @@
+---
+title: Cintos
+layout: default
+---
+
+{% for item in site.produtos %}
+    {% if item.family == "cintos" %}
+        {% include grid-loop.html %}
+    {% endif %}
+{% endfor %}
