@@ -15,6 +15,7 @@ collections:
     fields:
       - {label: "Nome do Produto", name: "title", widget: "string"}
       - {label: "Imagem", name: "image", widget: "image"}
+      - {label: "Preço", name: "price", widget: "number"}
       - label: Categoria
         name: family
         widget: select
