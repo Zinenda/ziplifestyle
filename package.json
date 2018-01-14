@@ -10,7 +10,7 @@
     "netlify-cms": "^1.0.3"
   },
   "scripts": {
-    "dev": "webpack && jekyll liveserve",
+    "dev": "webpack && jekyll serve --livereload",
     "build": "webpack && jekyll build"
   },
   "devDependencies": {
