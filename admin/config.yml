@@ -8,13 +8,41 @@ backend:
 media_folder: "assets/img/uploads"
 
 collections:
-  - name: "produtos"
-    label: "produtos"
-    folder: "_produtos"
+  - name: "infantil"
+    label: "Infantil"
+    folder: "produtos/_infantil"
     create: true
     fields:
       - {label: "Nome do Produto", name: "title", widget: "string"}
-      - {label: "Imagem", name: "image", widget: "image"}
+      - {label: "Imagem Principal", name: "image", widget: "image"}
+      - {label: "Imagem Secundária", name: "image2", widget: "image"}
+      - {label: "Imagem Auxiliar", name: "image3", widget: "image"}
+      - {label: "Preço", name: "price", widget: "number"}
+
+  - name: "masculino"
+    label: "Masculino"
+    folder: "produtos/_masculino"
+    create: true
+    fields:
+      - {label: "Nome do Produto", name: "title", widget: "string"}
+      - {label: "Imagem Principal", name: "image", widget: "image"}
+      - {label: "Imagem Secundária", name: "image2", widget: "image"}
+      - {label: "Imagem Auxiliar", name: "image3", widget: "image"}
+      - {label: "Preço", name: "price", widget: "number"}
+      - label: Categoria
+        name: family
+        widget: select
+        options: ["braceletes", "carteiras", "cintos", "chapeus", "gravatas", "relogios", "pastas", "oculos", "meias"]
+
+  - name: "femenino"
+    label: "Femenino"
+    folder: "produtos/_femenino"
+    create: true
+    fields:
+      - {label: "Nome do Produto", name: "title", widget: "string"}
+      - {label: "Imagem Principal", name: "image", widget: "image"}
+      - {label: "Imagem Secundária", name: "image2", widget: "image"}
+      - {label: "Imagem Auxiliar", name: "image3", widget: "image"}
       - {label: "Preço", name: "price", widget: "number"}
       - label: Categoria
         name: family

@@ -2,7 +2,7 @@ title: Calouera Store
 email: vendas@calouera.com
 description: >- # this means to ignore newlines until "baseurl:"
   All You Need!
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://calouera.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
@@ -31,8 +31,17 @@ sass:
   style: compressed
 
 collections:
-  produtos:
+  infantil:
+  masculino:
+  femenino:
+  fitness:
+  smartphone:
 
 image:
 logo: /assets/img/logo.svg
 color: "#820333"
+
+jekyll_analytics: 
+  GoogleAnalytics:
+    id: UA-112487267-1
+    anonymizeIp: false

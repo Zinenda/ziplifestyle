@@ -1,23 +1,19 @@
-- link: /braceletes
-  title: Braceletes
+- link: /infantil
+  title: Infantil
+  icon: child
 
-- link: /carteiras
-  title: Carteiras
+- link: /masculino
+  title: Masculino
+  icon: male
 
-- link: /cintos
-  title: Cintos
+- link: /femenino
+  title: Femenino
+  icon: female
 
-- link: /chapeus
-  title: Chápeus
+- link: /smartphone
+  title: Acessórios para Celulares
+  icon: mobile
 
-- link: /gravatas
-  title: Gravatas
-
-- link: /relogios
-  title: Relógios
-
-- link: /pastas
-  title: Pastas
-
-- link: /meias
-  title: Meias
+- link: /fitness
+  title: Acessórios Fitness
+  icon: heart
