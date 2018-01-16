@@ -30,7 +30,7 @@ collections:
       - {label: "Imagem Auxiliar", name: "image3", widget: "image"}
       - {label: "Preço", name: "price", widget: "number"}
       - label: Categoria
-        name: family
+        name: tag
         widget: select
         options: ["braceletes", "carteiras", "cintos", "chapeus", "gravatas", "relogios", "pastas", "oculos", "meias"]
 
@@ -45,7 +45,7 @@ collections:
       - {label: "Imagem Auxiliar", name: "image3", widget: "image"}
       - {label: "Preço", name: "price", widget: "number"}
       - label: Categoria
-        name: family
+        name: tag
         widget: select
         options: ["braceletes", "carteiras", "cintos", "chapeus", "gravatas", "relogios", "pastas", "oculos", "meias"]
 
@@ -60,7 +60,7 @@ collections:
       - {label: "Imagem Auxiliar", name: "image3", widget: "image"}
       - {label: "Preço", name: "price", widget: "number"}
       - label: Categoria
-        name: family
+        name: tag
         widget: select
         options: ["capinha", "protetor", "carregador", "cabo_USB", "auricular", "powerbank", "extra"]
 
@@ -75,6 +75,6 @@ collections:
       - {label: "Imagem Auxiliar", name: "image3", widget: "image"}
       - {label: "Preço", name: "price", widget: "number"}
       - label: Categoria
-        name: family
+        name: tag
         widget: select
         options: ["legs", "luvas", "cintas", "cantis", "tapetes", "relogios", "pulsos", "extras"]
