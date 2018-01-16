@@ -2,7 +2,7 @@
     <ul class="slides">
         {% for item in site.slider limit: 4 %}
             <li>
-                <img src="{{ item.image }}" alt="{{ item.title }}">
+                <img src="{{ item.slide }}" alt="{{ item.title }}">
                 <h3 class="caption center-align">{{ item.title }}</h3>
                 <h4>Apartir de {{ item.price }}</h4>
             </li>
