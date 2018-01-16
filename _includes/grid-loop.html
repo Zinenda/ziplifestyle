@@ -10,6 +10,10 @@
             <span class="card-title grey-text text-darken-4">
                 {{ item.title }} <br>{{ item.price }} MTs
             </span>
+            <div class="hide">
+                <a href="{{ item.image2 }}" data-lightbox="{{ item.title }}" data-title="{{ item.title }} por {{ item.price }} MTs">{{ item.title }}</a>
+                <a href="{{ item.image3 }}" data-lightbox="{{ item.title }}" data-title="{{ item.title }} por {{ item.price }} MTs">{{ item.title }}</a>
+            </div>
         </div>
     </div>
 </div>
