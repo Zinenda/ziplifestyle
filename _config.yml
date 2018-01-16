@@ -6,11 +6,28 @@ url: "https://calouera.com" # the base hostname & protocol for your site, e.g. h
 
 # Build settings
 markdown: kramdown
+permalink: pretty
 plugins:
+  - jekyll-paginate-v2
   - jekyll-email-protect
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-analytics
+
+autopages:
+  enabled: true
+  collections:
+    enabled: true
+
+pagination:
+  enabled: true
+  per_page: 15
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  trail: 
+    before: 2
+    after: 2
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
