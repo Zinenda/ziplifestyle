@@ -2,6 +2,22 @@
 layout: default
 ---
 
-{% for item in site.produtos %}
+{% for item in site.infantil limit: 3 %}
+    {% include grid-loop.html %}
+{% endfor %}
+
+{% for item in site.femenino limit: 3 %}
+    {% include grid-loop.html %}
+{% endfor %}
+
+{% for item in site.masculino limit: 3 %}
+    {% include grid-loop.html %}
+{% endfor %}
+
+{% for item in site.smartphones limit: 3 %}
+    {% include grid-loop.html %}
+{% endfor %}
+
+{% for item in site.fitness limit: 3 %}
     {% include grid-loop.html %}
 {% endfor %}
