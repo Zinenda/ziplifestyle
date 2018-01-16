@@ -79,11 +79,11 @@ collections:
         widget: select
         options: ["legs", "luvas", "cintas", "cantis", "tapetes", "relogios", "pulsos", "extras"]
 
-- name: "slider"
+  - name: "slider"
     label: "Slider"
     folder: "produtos/_slider"
     create: true
     fields:
       - {label: "Titulo", name: "title", widget: "string"}
-      - {label: Slide", name: "image", widget: "image"}
+      - {label: "Slide", name: "image", widget: "image"}
       - {label: "Preço", name: "price", widget: "number"}
