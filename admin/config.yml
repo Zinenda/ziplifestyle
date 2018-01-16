@@ -48,3 +48,33 @@ collections:
         name: family
         widget: select
         options: ["braceletes", "carteiras", "cintos", "chapeus", "gravatas", "relogios", "pastas", "oculos", "meias"]
+
+  - name: "smartphone"
+    label: "Smartphone"
+    folder: "produtos/_smartphone"
+    create: true
+    fields:
+      - {label: "Nome do Produto", name: "title", widget: "string"}
+      - {label: "Imagem Principal", name: "image", widget: "image"}
+      - {label: "Imagem Secundária", name: "image2", widget: "image"}
+      - {label: "Imagem Auxiliar", name: "image3", widget: "image"}
+      - {label: "Preço", name: "price", widget: "number"}
+      - label: Categoria
+        name: family
+        widget: select
+        options: ["capinha", "protetor", "carregador", "cabo_USB", "auricular", "powerbank", "extra"]
+
+  - name: "fitness"
+    label: "Fitness"
+    folder: "produtos/_fitness"
+    create: true
+    fields:
+      - {label: "Nome do Produto", name: "title", widget: "string"}
+      - {label: "Imagem Principal", name: "image", widget: "image"}
+      - {label: "Imagem Secundária", name: "image2", widget: "image"}
+      - {label: "Imagem Auxiliar", name: "image3", widget: "image"}
+      - {label: "Preço", name: "price", widget: "number"}
+      - label: Categoria
+        name: family
+        widget: select
+        options: ["legs", "luvas", "cintas", "cantis", "tapetes", "relogios", "pulsos", "extras"]
