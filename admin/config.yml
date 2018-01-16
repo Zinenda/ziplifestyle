@@ -79,7 +79,7 @@ collections:
         widget: select
         options: ["legs", "luvas", "cintas", "cantis", "tapetes", "relogios", "pulsos", "extras"]
 
-- name: "slider"
+  - name: "slider"
     label: "Slider"
     folder: "produtos/_slider"
     create: true
