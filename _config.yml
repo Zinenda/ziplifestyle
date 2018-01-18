@@ -14,11 +14,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-analytics
 
-autopages:
-  enabled: true
-  collections:
-    enabled: true
-
 pagination:
   enabled: true
   per_page: 15

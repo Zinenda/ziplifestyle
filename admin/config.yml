@@ -10,7 +10,7 @@ media_folder: "assets/img/uploads"
 collections:
   - name: "infantil"
     label: "Infantil"
-    folder: "produtos/_infantil"
+    folder: "_infantil"
     create: true
     fields:
       - {label: "Nome do Produto", name: "title", widget: "string"}
@@ -21,7 +21,7 @@ collections:
 
   - name: "masculino"
     label: "Masculino"
-    folder: "produtos/_masculino"
+    folder: "_masculino"
     create: true
     fields:
       - {label: "Nome do Produto", name: "title", widget: "string"}
@@ -36,7 +36,7 @@ collections:
 
   - name: "femenino"
     label: "Femenino"
-    folder: "produtos/_femenino"
+    folder: "_femenino"
     create: true
     fields:
       - {label: "Nome do Produto", name: "title", widget: "string"}
@@ -51,7 +51,7 @@ collections:
 
   - name: "smartphone"
     label: "Smartphone"
-    folder: "produtos/_smartphone"
+    folder: "_smartphone"
     create: true
     fields:
       - {label: "Nome do Produto", name: "title", widget: "string"}
@@ -66,7 +66,7 @@ collections:
 
   - name: "fitness"
     label: "Fitness"
-    folder: "produtos/_fitness"
+    folder: "_fitness"
     create: true
     fields:
       - {label: "Nome do Produto", name: "title", widget: "string"}
@@ -81,7 +81,7 @@ collections:
 
   - name: "slider"
     label: "Slider"
-    folder: "produtos/_slider"
+    folder: "_slider"
     create: true
     fields:
       - {label: "Titulo", name: "title", widget: "string"}

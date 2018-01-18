@@ -2,11 +2,5 @@
 layout: default
 pagination:
     enabled: true
-    collection: all
+    collection: infantil, masculino, femenino, fitness, smartphone 
 ---
-
-{% for item in paginator.posts %}
-    {% include grid-loop.html %}
-{% endfor %}
-
-{% include pagination.html %}

@@ -1,10 +1,9 @@
 <header class="slider">
     <ul class="slides">
-        {% for item in site.slider limit: 4 %}
+        {% for item in site.slider limit: 5 %}
             <li>
                 <img src="{{ item.image }}" alt="{{ item.title }}">
-                <h3 class="caption center-align">{{ item.title }}</h3>
-                <h4>Apartir de {{ item.price }}</h4>
+                <h3 class="caption center-align" style="text-shadow: 2px -2px #444;">{{ item.title }}</h3>
             </li>
         {% endfor %}
     </ul>
