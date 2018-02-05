@@ -2,7 +2,6 @@ backend:
   name: git-gateway
   accept_roles:
     - admin
-    - editor
   branch: master
 
 media_folder: "assets/img/uploads"
@@ -10,10 +9,10 @@ media_folder: "assets/img/uploads"
 collections:
   - name: "infantil"
     label: "Infantil"
-    folder: "_infantil"
+    folder: "produtos/_infantil"
     create: true
     fields:
-      - {label: "Nome do Produto", name: "title", widget: "string"}
+      - {label: "Nome", name: "title", widget: "string"}
       - {label: "Imagem Principal", name: "image", widget: "image"}
       - {label: "Imagem Secundária", name: "image2", widget: "image"}
       - {label: "Imagem Auxiliar", name: "image3", widget: "image"}
@@ -21,10 +20,10 @@ collections:
 
   - name: "masculino"
     label: "Masculino"
-    folder: "_masculino"
+    folder: "produtos/_masculino"
     create: true
     fields:
-      - {label: "Nome do Produto", name: "title", widget: "string"}
+      - {label: "Nome", name: "title", widget: "string"}
       - {label: "Imagem Principal", name: "image", widget: "image"}
       - {label: "Imagem Secundária", name: "image2", widget: "image"}
       - {label: "Imagem Auxiliar", name: "image3", widget: "image"}
@@ -36,10 +35,10 @@ collections:
 
   - name: "femenino"
     label: "Femenino"
-    folder: "_femenino"
+    folder: "produtos/_femenino"
     create: true
     fields:
-      - {label: "Nome do Produto", name: "title", widget: "string"}
+      - {label: "Nome", name: "title", widget: "string"}
       - {label: "Imagem Principal", name: "image", widget: "image"}
       - {label: "Imagem Secundária", name: "image2", widget: "image"}
       - {label: "Imagem Auxiliar", name: "image3", widget: "image"}
@@ -51,10 +50,10 @@ collections:
 
   - name: "smartphone"
     label: "Smartphone"
-    folder: "_smartphone"
+    folder: "produtos/_smartphone"
     create: true
     fields:
-      - {label: "Nome do Produto", name: "title", widget: "string"}
+      - {label: "Nome", name: "title", widget: "string"}
       - {label: "Imagem Principal", name: "image", widget: "image"}
       - {label: "Imagem Secundária", name: "image2", widget: "image"}
       - {label: "Imagem Auxiliar", name: "image3", widget: "image"}
@@ -66,10 +65,10 @@ collections:
 
   - name: "fitness"
     label: "Fitness"
-    folder: "_fitness"
+    folder: "produtos/_fitness"
     create: true
     fields:
-      - {label: "Nome do Produto", name: "title", widget: "string"}
+      - {label: "Nome", name: "title", widget: "string"}
       - {label: "Imagem Principal", name: "image", widget: "image"}
       - {label: "Imagem Secundária", name: "image2", widget: "image"}
       - {label: "Imagem Auxiliar", name: "image3", widget: "image"}
@@ -81,7 +80,7 @@ collections:
 
   - name: "slider"
     label: "Slider"
-    folder: "_slider"
+    folder: "produtos/_slider"
     create: true
     fields:
       - {label: "Titulo", name: "title", widget: "string"}
