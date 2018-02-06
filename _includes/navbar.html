@@ -1,11 +1,11 @@
 <div class="navbar-fixed">
     <nav class="nav-extended">
         <div class="nav-wrapper">
-            <a href="/" class="brand-logo center hide-on-small-only">
+            <a href="/" class="brand-logo center">
                 {% if page.title %}
                     {{ page.title }}
                     {% else %}
-                        {{ site.title }}
+                        {{ site.title | uppercase }}
                 {% endif %}
             </a>
             <a href="#" data-target="sideNav" class="sidenav-trigger show-on-large"><i class="fa-2x fas fa-bars"></i></a>
